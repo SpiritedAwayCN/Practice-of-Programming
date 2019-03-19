@@ -14,4 +14,6 @@
 
 ## B:棋盘分割
 
+记忆化搜索(dp)
+
 [提交地址-poj1191](http://bailian.openjudge.cn/practice/1191/)
