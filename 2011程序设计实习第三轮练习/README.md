@@ -17,3 +17,9 @@
 记忆化搜索(dp)
 
 [提交地址-poj1191](http://bailian.openjudge.cn/practice/1191/)
+
+## C:矩形覆盖
+
+还是记忆化搜索，递归+剪枝超时
+
+[提交地址-poj2791](http://bailian.openjudge.cn/practice/2791/)
