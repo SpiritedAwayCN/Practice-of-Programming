@@ -195,7 +195,7 @@ public:
             cont++;
             equipped_weapon.erase(iter++);
         }
-        if(wolf){
+        if(cont && wolf){
             cout<<*game_timer<<' '<<source->get_team_name()<<" wolf "<<source->get_uid()<<" took "<<cont;
             cout<<' '<<st_id->get_type_name()<<" from "<<get_team_name()<<' '<<get_type()<<' '<<get_uid();
             cout<<" in city "<<city_id<<endl;
