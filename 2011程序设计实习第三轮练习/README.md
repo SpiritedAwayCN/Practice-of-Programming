@@ -26,4 +26,6 @@
 
 ## D:金银岛
 
+看上去像背包的贪心水题，注意精度
+
 [提交地址-poj2795](http://bailian.openjudge.cn/practice/2795/)
