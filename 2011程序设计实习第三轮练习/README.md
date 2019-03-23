@@ -23,3 +23,7 @@
 还是记忆化搜索，递归+剪枝超时
 
 [提交地址-poj2791](http://bailian.openjudge.cn/practice/2791/)
+
+## D:金银岛
+
+[提交地址-poj2795](http://bailian.openjudge.cn/practice/2795/)
