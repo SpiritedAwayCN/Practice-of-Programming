@@ -41,3 +41,9 @@
 一道水题，排个序就简单了
 
 [提交地址-poj2792](http://bailian.openjudge.cn/practice/2792/)
+
+## G:木材加工
+
+标准的二分猜答案
+
+[提交地址-poj2774](http://bailian.openjudge.cn/practice/2774/)
