@@ -47,3 +47,9 @@
 标准的二分猜答案
 
 [提交地址-poj2774](http://bailian.openjudge.cn/practice/2774/)
+
+## H:最大子矩阵
+
+dp，划归为最大子序列，复杂度O(n^3)
+
+[提交地址-poj2766](http://bailian.openjudge.cn/practice/2766/)
