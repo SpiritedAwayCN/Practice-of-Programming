@@ -34,4 +34,10 @@
 
 递推水题（可能可以用矩阵快速幂）
 
-[提交地址-poj2795](http://bailian.openjudge.cn/practice/2786/)
+[提交地址-poj2786](http://bailian.openjudge.cn/practice/2786/)
+
+## F:集合加法
+
+一道水题，排个序就简单了
+
+[提交地址-poj2792](http://bailian.openjudge.cn/practice/2792/)
