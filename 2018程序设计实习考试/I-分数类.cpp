@@ -23,7 +23,7 @@ public:
 	}
 	friend ostream& operator<<(ostream& ost, const Fraction& A) {
 		ost << A.num;
-		if(A.den != 1)
+		//if(A.den != 1)
 			ost << '/' << A.den;
 		return ost;
 	}
