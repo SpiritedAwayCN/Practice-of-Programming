@@ -20,7 +20,6 @@ priority_queue<Coordinate> BFS_queue;
 inline bool push_queue(int x,int y,int key, int status, int step){
     if(x<1||y<1||x>n||y>n) return false;
     if(tx==x && ty==y && key>=k) {ans=step + 1; return true;}
-    if(vis[x][y][key] & (1<<status)) return false;
     if(Tmap[x][y]==-10) return false;
     if(Tmap[x][y]==key+1) key++;
     step+=1;
@@ -28,6 +27,7 @@ inline bool push_queue(int x,int y,int key, int status, int step){
         step+=1;
         status^=1<<-(Tmap[x][y]+1);
     }
+    if(vis[x][y][key] & (1<<status)) return false;
     vis[x][y][key]|=1<<status;
     BFS_queue.push(Coordinate{x,y,key,status,step});
     return false;
