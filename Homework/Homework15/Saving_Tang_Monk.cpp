@@ -1,6 +1,7 @@
 #include<cstdio>
 #include<cstring>
 #include<queue>
+#include<iostream>
 #include<algorithm>
 using namespace std;
 constexpr int MAXN = 105;
@@ -14,7 +15,7 @@ struct Coordinate{
         return st>B.st;
     }
 };
-
+//郭炜的输入数据有行末空格，简直有毒！！！
 priority_queue<Coordinate> BFS_queue;
 
 inline bool push_queue(int x,int y,int key, int status, int step){
@@ -45,9 +46,8 @@ int main(){
         while(!BFS_queue.empty()) BFS_queue.pop();
         int sx,sy;
         for(int i=1;i<=n;i++){
-            getchar();
             for(int j=1;j<=n;j++){
-                temp=getchar();
+                cin>>temp;
                 switch (temp){
                 case 'K':
                     sx=i;sy=j;

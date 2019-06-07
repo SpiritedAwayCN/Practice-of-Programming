@@ -1,9 +1,10 @@
 
 *.exe
 *.o
-# .��ͷ���κ��ļ�
+
 .*
-# �ų� .gitignore ����
+*.class
+
 !/.gitignore
 !/.gitattributes
 Homework/Homework15/Saving_Tang_Monk
